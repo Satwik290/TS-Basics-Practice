@@ -1,8 +1,8 @@
-type UserName=(n: string, m: string)=> string;
+const arr:number[] = [1,2,3,];
+const arr2:Array<string>= new Array(20);
+const arr3:Array<string | number>= [158,"123",123];
+arr2[0]="satwik"; 
 
-const func:UserName=(n,m)=> {
-   console.log(n, m);
-   return n + m;
-}
-
- 
+arr.forEach(i=>{
+   i.valueOf();
+});

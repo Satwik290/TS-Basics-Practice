@@ -1,5 +1,8 @@
 "use strict";
-const func = (n, m) => {
-    console.log(n, m);
-    return n + m;
-};
+const arr = [1, 2, 3,];
+const arr2 = new Array(20);
+const arr3 = [158, "123", 123];
+arr2[0] = "satwik";
+arr.forEach(i => {
+    i.valueOf();
+});
