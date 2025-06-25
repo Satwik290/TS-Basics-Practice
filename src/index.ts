@@ -74,3 +74,35 @@ func(1,3,9,65,97) */
 // function lol(n:number):number{
 //    return 54;
 // }
+
+//func in obj-------------------------------------------------------------------
+/** 
+interface product {
+   name:string;
+   stock:number;
+   price:number;
+   photo?:string;
+   readonly id:string;
+}
+
+type Getdatatype = (product:product)=>void;
+const getdata:Getdatatype= (product)=>{
+   console.log(product);
+};
+
+const productone:product={
+   name:"macbook",
+   stock:10,
+   price:100000,
+   id:"fvvj764",
+
+}
+getdata(productone); */
+
+//never type
+/*
+type theme = "light"|"dark";
+const errorHandler = ():never=>{
+   throw new Error();
+}; */
+
