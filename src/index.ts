@@ -106,3 +106,89 @@ const errorHandler = ():never=>{
    throw new Error();
 }; */
 
+//classes 
+/*
+class Player {
+   public readonly id:string;
+  constructor(
+    private height:number,
+    public weight:number,
+    protected power:number){
+     this.id=String(Math.random()*100);
+    }
+    getmyheight=()=>this.height;
+}
+
+class Player2 extends Player{
+   special:boolean;
+   constructor(height:number,weight:number,power:number,special:boolean){
+      super(height,weight,power);
+      this.special=special;
+   }
+   getmypower=()=> this.power;
+}
+
+const satwik = new Player2(100,150,22,true);
+console.log("weight",satwik.weight);
+console.log("Height",satwik.getmyheight());
+console.log("power",satwik.getmypower);
+console.log("id",satwik.id); */
+
+//other functions of classes (get,set)
+ /* 
+class Player {
+   public readonly id:string;
+  constructor(
+    private height:number,
+    public weight:number,
+    protected power:number){
+     this.id=String(Math.random()*100);
+   }
+   //greater func
+   get getmyheight(){
+     return  this.height;
+   }
+   //setter function
+   set changeHeight(val:number){
+      this.height=val;
+   }
+};
+
+const satwik = new Player(100,150,25);
+console.log("height",satwik.getmyheight);
+satwik.changeHeight=200;
+console.log("height",satwik.getmyheight);
+*/
+/**
+interface  ProductType{
+   name:string;
+   price:number;
+   stock:number;
+   offer?:boolean;
+};
+
+interface GiveId{
+   getId:()=>string;
+
+};
+
+class Product implements ProductType{
+  private id:string= String(Math.random()*1000);
+
+  constructor(
+  public name:string,
+  public price:number,
+  public stock:number){ 
+  }
+  getId=()=>this.id;
+};
+
+const product1= new Product("mac", 167809,65);
+console.log(product1);
+ */
+
+
+
+
+
+
