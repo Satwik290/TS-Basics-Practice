@@ -187,6 +187,31 @@ const product1= new Product("mac", 167809,65);
 console.log(product1);
  */
 
+// type assertion /*
+/** in DOM
+const  btn = <HTMLElement>document.getElementById("btn");
+const  btn = document.getElementById("btn")as HTMLElement;
+const  btn = document.getElementById("btn")!;
+ */
+// const  btn = <HTMLElement>document.getElementById("btn");
+// btn.onclick;
+// const img = document.getElementById("myimg")as HTMLImageElement; 
+//  const img = document.querySelector ("myimg")as HTMLImageElement;
+
+//   img.src
+ 
+// ex 
+
+// const form = document.getElementById("myform")as HTMLFormElement;
+// const myip = document.querySelector("form>input")as HTMLInputElement;
+//  form.onsubmit=(e)=>{
+//    e.preventDefault();
+//    const value = Number(myip.value);
+//    const h2 = document.createElement("h2");
+//    h2.textContent = String(value + 20);
+//    const body = document.querySelector("body")!;
+//    body.append(h2);
+//  };
 
 
 
