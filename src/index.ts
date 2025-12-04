@@ -202,16 +202,16 @@ const  btn = document.getElementById("btn")!;
  
 // ex 
 
-const form = document.getElementById("myform")as HTMLFormElement;
-const myip = document.querySelector("form>input")as HTMLInputElement;
- form.onsubmit=(e)=>{
-   e.preventDefault();
-   const value = Number(myip.value);
-   const h2 = document.createElement("h2");
-   h2.textContent = String(value + 20);
-   const body = document.querySelector("body")!;
-   body.append(h2);
- };
+// const form = document.getElementById("myform")as HTMLFormElement;
+// const myip = document.querySelector("form>input")as HTMLInputElement;
+//  form.onsubmit=(e)=>{
+//    e.preventDefault();
+//    const value = Number(myip.value);
+//    const h2 = document.createElement("h2");
+//    h2.textContent = String(value + 20);
+//    const body = document.querySelector("body")!;
+//    body.append(h2);
+//  };
 
 
 
